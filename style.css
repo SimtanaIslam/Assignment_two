@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+}
+
+/* global styles */
+
+.global {
+    font-family: 'Mulish', sans-serif;
+    padding: 52px 135px;
+}
+
+a {
+    text-decoration: none;
+    color: #424247;
+}
+
+.title_style {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.paragraph_style1 {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.paragraph_style2 {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.primary_button {
+    background: #FF5400;
+    border-radius: 8px;
+    padding: 15px 0px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 174px;
+}
+
+/* <-----header styles-----> */
+
+/* navigation section */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_title h2 {
+    margin-left: 10px;
+}
+
+.nav_span {
+    color: #FF5400;
+}
+
+.anchors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anchors li {
+    padding-left: 44px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.anc_home {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.menu {
+    display: none;
+}
+
+/* banner section */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%), url('../Images/banner.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.banner-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-top h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-top p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    max-width: 676px;
+    text-align:center;
+}
+
+.banner_query {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-color: rgba(255, 255, 255, 0.461);
+    padding: 10px;
+    width: 770px;
+    border-radius: 8px;
+}
+
+.banner_query_sec {
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 15px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner_query button {
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 5px;
+}
+
+.popular_tours {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.popular_tours_left p {
+    margin: 24px 0px;
+}
+
+.popular_tours_left ul {
+    padding-left: 20px;
+}
+
+.popular_tours_left li {
+    margin: 16px 0px;
+}
+
+/* choose your destination section */
+
+.choose_destination_title {
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose_destination_title p {
+    width: 645px;
+    margin-bottom: 48px;
+}
+
+.image_row img {
+    width: 100%;
+    height: 100%;
+}
+
+.image_row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.maldives {
+    position: absolute;
+    left: 20%;
+    top: 44.5%;
+}
+
+.indonesia {
+    position: absolute;
+    left: 71%;
+    top: 44.5%;
+}
+
+.srilanka {
+    position: absolute;
+    left: 10%;
+    top: 44.5%;
+}
+
+.north_america {
+    position: absolute;
+    left: 44.5%;
+    top: 44.5%;
+}
+
+.kashmir {
+    position: absolute;
+    left: 82%;
+    top: 44.5%;
+}
+
+.bangladesh {
+    position: absolute;
+    left: 13%;
+    top: 44.5%;
+}
+
+.bandarban {
+    position: absolute;
+    left: 64%;
+    top: 44.5%;
+}
+
+/* why choose us section */
+
+.why_us{
+    text-align: center;
+    margin-top: 100px;
+}
+.why_us > p{
+    width: 65%;
+    padding-left: 200px;
+}
+.why_us_cardss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    gap: 24px;
+    margin-top: 48px;
+}
+.why_us_card{
+    width: 545px;
+    background: rgba(251, 181, 99, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
